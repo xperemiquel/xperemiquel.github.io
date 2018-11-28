@@ -2,6 +2,11 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+@media (min-width: 320px) {
+	html {
+		font-size:11px;
+	}
+}
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
@@ -24,6 +29,11 @@ html {
 	html {
 		font-size: 20px;
 	}
+}
+.maincontainer {
+	position: relative;
+	z-index: 1;
+    zoom: 1;
 }
 
 main {

@@ -1,3 +1,4 @@
+// Resize Canvas 
 var canvas = document.querySelector('canvas');
 
 canvas.height = window.innerHeight;
